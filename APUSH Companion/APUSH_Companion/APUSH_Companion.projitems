@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>80b504a1-8008-48ab-94eb-10e5fb2d0bd9</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>APUSH_Companion</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Menu\MenuCell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Menu\MenuItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Menu\MenuListData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Menu\MenuListView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\CustomWebView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ExtendedTextCell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Vocab.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\AboutPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\BrowserPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\DocumentResourcesPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\InfoPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\MenuPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\PDFPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\RootPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\VideoPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\VocabEntryPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\VocabPage.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Icon\ios\AppIcon.appiconset\Icon-Transparent-Large.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch1.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch10.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch11.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch12.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch13.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch14.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch15.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch16.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch17.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch18.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch19.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch2.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch20.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch21.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch22.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch23.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch24.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch25.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch26.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch27.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch28.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch29.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch3.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch30.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch31.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch32.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch33.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch34.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch35.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch36.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch37.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch38.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch39.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch4.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch40.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch41.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch5.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch6.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch7.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch8.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ch9.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\collectiveOutline.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\presidents.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\S1Outline.pdf" />
+    <Content Include="$(MSBuildThisFileDirectory)Docs\S2Outline.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Icon\android\mipmap-hdpi\ic_launcher.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\android\mipmap-ldpi\ic_launcher.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\android\mipmap-mdpi\ic_launcher.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\android\mipmap-xhdpi\ic_launcher.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\android\mipmap-xxhdpi\ic_launcher.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\android\mipmap-xxxhdpi\ic_launcher.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\android\playstore-icon.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\icon.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\imessenger\icon-messages-app-27x20%401x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\imessenger\icon-messages-app-27x20%402x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\imessenger\icon-messages-app-27x20%403x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\imessenger\icon-messages-app-iPadAir-67x50%402x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\imessenger\icon-messages-app-iPadAir-74x55%402x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\imessenger\icon-messages-app-iPhone-60x45%401x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\imessenger\icon-messages-app-iPhone-60x45%402x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\imessenger\icon-messages-app-iPhone-60x45%403x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\imessenger\icon-messages-app-store-1024x768.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\imessenger\icon-messages-transcript-32x24%401x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\imessenger\icon-messages-transcript-32x24%402x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\imessenger\icon-messages-transcript-32x24%403x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\ios\AppIcon.appiconset\Contents.json" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\ios\AppIcon.appiconset\Icon-App-114x114%401x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\ios\AppIcon.appiconset\Icon-App-20x20%401x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\ios\AppIcon.appiconset\Icon-App-20x20%402x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\ios\AppIcon.appiconset\Icon-App-20x20%403x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\ios\AppIcon.appiconset\Icon-App-29x29%401x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\ios\AppIcon.appiconset\Icon-App-29x29%402x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\ios\AppIcon.appiconset\Icon-App-29x29%403x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\ios\AppIcon.appiconset\Icon-App-40x40%401x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\ios\AppIcon.appiconset\Icon-App-40x40%402x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\ios\AppIcon.appiconset\Icon-App-40x40%403x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\ios\AppIcon.appiconset\Icon-App-57x57%401x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\ios\AppIcon.appiconset\Icon-App-60x60%401x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\ios\AppIcon.appiconset\Icon-App-60x60%402x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\ios\AppIcon.appiconset\Icon-App-60x60%403x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\ios\AppIcon.appiconset\Icon-App-60x60-Transparent%401x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\ios\AppIcon.appiconset\Icon-App-76x76%401x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\ios\AppIcon.appiconset\Icon-App-76x76%402x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\ios\AppIcon.appiconset\Icon-App-76x76%403x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\ios\AppIcon.appiconset\Icon-App-83.5x83.5%402x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\ios\iTunesArtwork%401x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\ios\iTunesArtwork%402x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\ios\iTunesArtwork%403x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\watchkit\AppIcon.appiconset\Contents.json" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\watchkit\AppIcon.appiconset\Icon-24%402x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\watchkit\AppIcon.appiconset\Icon-27.5%402x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\watchkit\AppIcon.appiconset\Icon-29%402x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\watchkit\AppIcon.appiconset\Icon-29%403x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\watchkit\AppIcon.appiconset\Icon-40%402x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\watchkit\AppIcon.appiconset\Icon-44%402x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\watchkit\AppIcon.appiconset\Icon-86%402x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Icon\watchkit\AppIcon.appiconset\Icon-98%402x.png" />
+  </ItemGroup>
+</Project>
