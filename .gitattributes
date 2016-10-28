@@ -17,7 +17,7 @@
 *.RTF	 diff=astextplain
 
 # Ignore irrelevant languge stats
-linguist-language=Java
+linguist-language=C#
 APUSH Companion/APUSH_Companion.Droid/Assets/* linguist-vendored
 APUSH Companion/APUSH_Companion.Droid/obj/Debug/assets/* linguist-vendored
 APUSH Companion/APUSH_Companion.Droid/obj/Release/assets/* linguist-vendored
