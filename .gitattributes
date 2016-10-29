@@ -15,3 +15,9 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
+
+# Ignore lib languge stats
+APUSH Companion/APUSH_Companion.Droid/Assets/* linguist-vendored
+APUSH Companion/APUSH_Companion.Droid/obj/Debug/assets/* linguist-vendored
+APUSH Companion/APUSH_Companion.Droid/obj/Release/assets/* linguist-vendored
+APUSH Companion/APUSH_Companion.Droid/obj/Debug/* linguist-vendored
