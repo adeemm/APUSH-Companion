@@ -30,6 +30,8 @@ C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Compa
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.Droid\obj\Release\APUSH_Companion.Droid.dll
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.Droid\obj\Release\APUSH_Companion.Droid.pdb
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.Droid\obj\Release\android\bin\co.adeem.APUSH_Companion.apk
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.Droid\obj\Release\res\layout\tabs.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.Droid\obj\Release\res\layout\toolbar.xml
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.Droid\obj\Release\res\drawable\adamnorris.jpg
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.Droid\obj\Release\res\drawable\book.png
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.Droid\obj\Release\res\drawable\crashcourse.jpg
@@ -43,8 +45,11 @@ C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Compa
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.Droid\obj\Release\res\drawable\tomrichey.jpg
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.Droid\obj\Release\res\drawable\video.png
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.Droid\obj\Release\res\drawable\vocab.png
-C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.Droid\obj\Release\res\drawable\icon-transparent-large.png
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.Droid\obj\Release\res\drawable\icontransparentlarge.png
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.Droid\obj\Release\res\drawable\divider.png
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.Droid\obj\Release\res\values\colors.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.Droid\obj\Release\res\values\style.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.Droid\obj\Release\res\values-v21\style.xml
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.Droid\obj\Release\R.cs.flag
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.Droid\obj\Release\uploadflags.txt
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.Droid\obj\Release\APUSH_Companion.Droid.dll.mdb

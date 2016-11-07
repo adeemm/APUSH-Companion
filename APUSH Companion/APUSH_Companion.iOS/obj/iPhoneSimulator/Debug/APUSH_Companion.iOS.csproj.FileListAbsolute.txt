@@ -121,13 +121,13 @@ C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Compa
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhoneSimulator\Debug\APUSH_Companion.iOS.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhoneSimulator\Debug\APUSH_Companion.iOS.exe
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhoneSimulator\Debug\APUSH_Companion.iOS.pdb
-C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhoneSimulator\Debug\optimized\Icon-Transparent.png
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhoneSimulator\Debug\optimized\Icon\ios\AppIcon.appiconset\Icon-Transparent-Large.png
-C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhoneSimulator\Debug\optimized\Icon-Transparent-Large.png
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhoneSimulator\Debug\optimized\divider.png
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\bin\iPhoneSimulator\Debug\revmob.ios.xamarin.dll
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhoneSimulator\Debug\optimized\Default.png
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhoneSimulator\Debug\optimized\Default@2x.png
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhoneSimulator\Debug\optimized\Default-568h@2x.png
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhoneSimulator\Debug\optimized\IconTransparent.png
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhoneSimulator\Debug\optimized\IconTransparentLarge.png
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhoneSimulator\Debug\APUSH_Companion.iOS.exe.mdb
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\bin\iPhoneSimulator\Debug\APUSH_Companion.iOS.exe.mdb

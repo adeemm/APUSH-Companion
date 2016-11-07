@@ -49,9 +49,6 @@ C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Compa
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhone\AppStore\ibtool\_BundleResourceWithLogicalName.items
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhone\AppStore\actool\_PartialAppManifest.items
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhone\AppStore\actool\_BundleResourceWithLogicalName.items
-C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhone\AppStore\optimized\
-C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhone\AppStore\APUSH_Companion.iOS.csprojResolveAssemblyReference.cache
-C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhone\AppStore\APUSH_Companion.iOS.exe
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhone\AppStore\optimized\Icon\ios\AppIcon.appiconset\Icon-Transparent-Large.png
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhone\AppStore\optimized\Icon\android\mipmap-hdpi\ic_launcher.png
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhone\AppStore\optimized\Icon\android\mipmap-ldpi\ic_launcher.png
@@ -121,11 +118,14 @@ C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Compa
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhone\AppStore\optimized\Icon-Small@2x.png
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhone\AppStore\optimized\Icon-60@2x.png
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhone\AppStore\optimized\Icon-Small-40@2x.png
-C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhone\AppStore\optimized\Icon-Transparent.png
-C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhone\AppStore\optimized\Icon-Transparent-Large.png
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhone\AppStore\optimized\IconTransparent.png
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhone\AppStore\optimized\IconTransparentLarge.png
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhone\AppStore\optimized\divider.png
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhone\AppStore\optimized\Default.png
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhone\AppStore\optimized\Default@2x.png
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhone\AppStore\optimized\Default-568h@2x.png
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhone\AppStore\optimized\
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhone\AppStore\APUSH_Companion.iOS.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhone\AppStore\APUSH_Companion.iOS.exe
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\obj\iPhone\AppStore\APUSH_Companion.iOS.exe.mdb
 C:\Users\Admin\Documents\Visual Studio 2015\Projects\APUSH Companion\APUSH Companion\APUSH_Companion.iOS\bin\iPhone\AppStore\APUSH_Companion.iOS.exe.mdb

@@ -23,7 +23,7 @@ namespace APUSH_Companion.Pages
 
             var logo = new Image
             {
-                Source = ImageSource.FromFile("Icon-Transparent-Large.png"),
+                Source = ImageSource.FromFile("IconTransparentLarge.png"),
                 HorizontalOptions = LayoutOptions.Center,
                 Margin = new Thickness(0, 0, 0, 20)
             };

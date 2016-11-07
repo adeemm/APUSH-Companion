@@ -438,8 +438,15 @@
     <AndroidAsset Include="Assets\Docs\S2Outline.pdf" />
     <AndroidAsset Include="Assets\Docs\collectiveOutline.pdf" />
     <AndroidAsset Include="Assets\Docs\presidents.pdf" />
+    <AndroidAsset Include="Assets\Docs\ReviewPacket.pdf" />
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
+    <AndroidResource Include="Resources\layout\tabs.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\toolbar.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />
@@ -759,12 +766,9 @@
   <ItemGroup>
     <AndroidResource Include="Resources\Drawable\vocab.png" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Resources\layout\" />
-    <Folder Include="Resources\values\" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\Drawable\Icon-Transparent-Large.png" />
+    <AndroidResource Include="Resources\Drawable\IconTransparentLarge.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Drawable\divider.png" />
@@ -774,6 +778,15 @@
       <Visible>False</Visible>
       <Version>9.2.2</Version>
     </XamarinComponentReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\colors.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\style.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values-v21\style.xml" />
   </ItemGroup>
   <Import Project="..\APUSH_Companion\APUSH_Companion.projitems" Label="Shared" Condition="Exists('..\APUSH_Companion\APUSH_Companion.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

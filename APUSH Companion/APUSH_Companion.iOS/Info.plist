@@ -24,15 +24,12 @@
 	<key>CFBundleIdentifier</key>
 	<string>co.adeem.APUSHCompanion</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>CFBundleIconFiles</key>
 	<array>
 		<string>Icon@2x.png</string>
 		<string>Icon.png</string>
 		<string>Icon-60@2x.png</string>
-		<string>Default.png</string>
-		<string>Default@2x.png</string>
-		<string>Default-568h@2x.png</string>
 		<string>Icon-Small@2x.png</string>
 		<string>Icon-Small.png</string>
 		<string>Icon-Small-40@2x.png</string>
@@ -40,6 +37,6 @@
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1</string>
+	<string>3</string>
 </dict>
 </plist>

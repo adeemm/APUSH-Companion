@@ -71,11 +71,7 @@ namespace APUSH_Companion.Pages
             gilderlehrman.GestureRecognizers.Add(glTapped);
             tomrichey.GestureRecognizers.Add(trTapped);
 
-            StackLayout layout = new StackLayout { Children = { crashcourse, new Image { Source = ImageSource.FromFile("divider.png") }, adamnorris, new Image { Source = ImageSource.FromFile("divider.png") }, jcoz, new Image { Source = ImageSource.FromFile("divider.png") }, khan, new Image { Source = ImageSource.FromFile("divider.png") }, gilderlehrman, new Image { Source = ImageSource.FromFile("divider.png") } } };
-
-            /*if (App.deviceHeight > 1140)
-                layout.Children.Add(tomrichey);       TODO
-            */
+            StackLayout layout = new StackLayout { Children = { crashcourse, new Image { Source = ImageSource.FromFile("divider.png") }, adamnorris, new Image { Source = ImageSource.FromFile("divider.png") }, jcoz, new Image { Source = ImageSource.FromFile("divider.png") }, khan, new Image { Source = ImageSource.FromFile("divider.png") }, tomrichey, new Image { Source = ImageSource.FromFile("divider.png") }, gilderlehrman } };
 
             Content = layout;
         }

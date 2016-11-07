@@ -29,4 +29,3 @@ namespace APUSH_Companion.Droid
         }
     }
 }
-

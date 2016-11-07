@@ -130,4 +130,7 @@
     <Content Include="$(MSBuildThisFileDirectory)Icon\watchkit\AppIcon.appiconset\Icon-86%402x.png" />
     <Content Include="$(MSBuildThisFileDirectory)Icon\watchkit\AppIcon.appiconset\Icon-98%402x.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Docs\ReviewPacket.pdf" />
+  </ItemGroup>
 </Project>

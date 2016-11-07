@@ -22,7 +22,7 @@ namespace APUSH_Companion.Pages
 
             var logo = new Image
             {
-                Source = ImageSource.FromFile("Icon-Transparent-Large.png"),
+                Source = ImageSource.FromFile("IconTransparentLarge.png"),
                 HorizontalOptions = LayoutOptions.Center,
                 Margin = new Thickness(0, 10)
             };
@@ -35,7 +35,7 @@ namespace APUSH_Companion.Pages
 
             var ver = new Label
             {
-                Text = "Version 1.0",
+                Text = "Version 1.1",
                 HorizontalTextAlignment = TextAlignment.Center
             };
 

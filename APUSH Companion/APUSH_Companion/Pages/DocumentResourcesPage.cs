@@ -25,7 +25,7 @@ namespace APUSH_Companion.Pages
                     new TableSection("Review Material")
                     {
                         new Models.ExtendedTextCell { Text = "Collective Outline", ShowDisclosure = true, Command = new Command(() => Navigation.PushAsync(new PDFPage("Collective Outline", "collectiveOutline.pdf"))) },
-                        //new Models.ExtendedTextCell { Text = "Crash Course 2nd Edition", ShowDisclosure = true, Command = new Command(() => Navigation.PushAsync(new PDFPage("Crash Course 2nd Ed", "CrashCourse.pdf"))) },
+                        new Models.ExtendedTextCell { Text = "Exam Review Topics", ShowDisclosure = true, Command = new Command(() => Navigation.PushAsync(new PDFPage("Exam Review Topics", "ReviewPacket.pdf"))) },
                         new Models.ExtendedTextCell { Text = "Review Of Presidents", ShowDisclosure = true, Command = new Command(() => Navigation.PushAsync(new PDFPage("Presidential Review", "presidents.pdf"))) }
                     },
 

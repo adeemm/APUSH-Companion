@@ -221,10 +221,10 @@
     <BundleResource Include="Resources\Icon-Small-40%402x.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\Icon-Transparent.png" />
+    <BundleResource Include="Resources\IconTransparent.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\Icon-Transparent-Large.png" />
+    <BundleResource Include="Resources\IconTransparentLarge.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\divider.png" />
