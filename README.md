@@ -3,7 +3,7 @@ This app can easily help a student study for the AP US History Exam. It's built 
 Actually C# not JavaScript
 
 iOS: [App Store Download Link](https://appsto.re/us/V23Tfb.i)<br>
-Android: (in development)
+Android: APK binary included, but unreleased as it does not look appealing
 
 # Features
 * 1500+ Vocab & ID Terms
