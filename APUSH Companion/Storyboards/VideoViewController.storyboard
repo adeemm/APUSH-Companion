@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uId-gy-i74">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Video Resources-->
+        <scene sceneID="ytF-hh-WQN">
+            <objects>
+                <tableViewController title="Video Resources" id="974-et-jUr" customClass="VideoViewController" customModule="APUSH_Companion" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="efP-c8-qID">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection id="nNm-9e-Ab5">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="VideoBannerCell" rowHeight="62" id="kDd-Ju-nDn">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="62"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kDd-Ju-nDn" id="9XR-R7-JLq">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="62"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="crashCourse" translatesAutoresizingMaskIntoConstraints="NO" id="IJk-Fh-NXn">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="62"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="IJk-Fh-NXn" firstAttribute="top" secondItem="9XR-R7-JLq" secondAttribute="top" id="63y-gv-2La"/>
+                                                <constraint firstItem="IJk-Fh-NXn" firstAttribute="leading" secondItem="9XR-R7-JLq" secondAttribute="leading" id="Qvb-Qw-R5Z"/>
+                                                <constraint firstAttribute="bottom" secondItem="IJk-Fh-NXn" secondAttribute="bottom" id="pOL-uV-trP"/>
+                                                <constraint firstAttribute="trailing" secondItem="IJk-Fh-NXn" secondAttribute="trailing" id="usJ-6f-18Y"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="VideoDivCell" rowHeight="22" id="iIT-DU-BPv">
+                                        <rect key="frame" x="0.0" y="62" width="375" height="22"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iIT-DU-BPv" id="XUx-rL-P2F">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="22"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="divider" translatesAutoresizingMaskIntoConstraints="NO" id="Ycc-uu-aLO">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="22"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="Ycc-uu-aLO" secondAttribute="trailing" id="9jK-Xc-bM8"/>
+                                                <constraint firstItem="Ycc-uu-aLO" firstAttribute="top" secondItem="XUx-rL-P2F" secondAttribute="top" id="9sr-V8-yHM"/>
+                                                <constraint firstItem="Ycc-uu-aLO" firstAttribute="leading" secondItem="XUx-rL-P2F" secondAttribute="leading" id="EXk-Lt-MEI"/>
+                                                <constraint firstAttribute="bottom" secondItem="Ycc-uu-aLO" secondAttribute="bottom" id="ywV-94-wh4"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="VideoBannerCell" rowHeight="62" id="Mbr-ij-sjt">
+                                        <rect key="frame" x="0.0" y="84" width="375" height="62"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Mbr-ij-sjt" id="LN4-gq-jcZ">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="62"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="adamNorris" translatesAutoresizingMaskIntoConstraints="NO" id="HDS-NU-LfF">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="62"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="HDS-NU-LfF" secondAttribute="bottom" id="FwH-S1-MUL"/>
+                                                <constraint firstAttribute="trailing" secondItem="HDS-NU-LfF" secondAttribute="trailing" id="Og4-1Q-l7T"/>
+                                                <constraint firstItem="HDS-NU-LfF" firstAttribute="top" secondItem="LN4-gq-jcZ" secondAttribute="top" id="Vwb-y0-kt8"/>
+                                                <constraint firstItem="HDS-NU-LfF" firstAttribute="leading" secondItem="LN4-gq-jcZ" secondAttribute="leading" id="dp8-md-r3Q"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="VideoDivCell" rowHeight="22" id="NMw-7d-Mba">
+                                        <rect key="frame" x="0.0" y="146" width="375" height="22"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="NMw-7d-Mba" id="D85-BW-PMe">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="22"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="divider" translatesAutoresizingMaskIntoConstraints="NO" id="D6T-cm-de4">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="22"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="D6T-cm-de4" firstAttribute="top" secondItem="D85-BW-PMe" secondAttribute="top" id="PLt-gG-g9A"/>
+                                                <constraint firstItem="D6T-cm-de4" firstAttribute="leading" secondItem="D85-BW-PMe" secondAttribute="leading" id="Twm-GT-EAv"/>
+                                                <constraint firstAttribute="bottom" secondItem="D6T-cm-de4" secondAttribute="bottom" id="bTP-4I-Oje"/>
+                                                <constraint firstAttribute="trailing" secondItem="D6T-cm-de4" secondAttribute="trailing" id="tey-td-JEF"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="VideoBannerCell" rowHeight="62" id="s7r-0L-B2k">
+                                        <rect key="frame" x="0.0" y="168" width="375" height="62"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="s7r-0L-B2k" id="NAG-0v-pWr">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="62"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jocz" translatesAutoresizingMaskIntoConstraints="NO" id="4H4-Je-e0d">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="62"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="4H4-Je-e0d" firstAttribute="top" secondItem="NAG-0v-pWr" secondAttribute="top" id="6Fd-nG-bfd"/>
+                                                <constraint firstAttribute="bottom" secondItem="4H4-Je-e0d" secondAttribute="bottom" id="ED1-9z-b9h"/>
+                                                <constraint firstAttribute="trailing" secondItem="4H4-Je-e0d" secondAttribute="trailing" id="m6L-v5-MVB"/>
+                                                <constraint firstItem="4H4-Je-e0d" firstAttribute="leading" secondItem="NAG-0v-pWr" secondAttribute="leading" id="ngK-hD-2Lq"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="VideoDivCell" rowHeight="22" id="j3U-hU-bgC">
+                                        <rect key="frame" x="0.0" y="230" width="375" height="22"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="j3U-hU-bgC" id="6pG-H7-ose">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="22"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="divider" translatesAutoresizingMaskIntoConstraints="NO" id="2f3-u7-HDt">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="22"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="2f3-u7-HDt" firstAttribute="leading" secondItem="6pG-H7-ose" secondAttribute="leading" id="3Xc-yp-C3M"/>
+                                                <constraint firstItem="2f3-u7-HDt" firstAttribute="top" secondItem="6pG-H7-ose" secondAttribute="top" id="8Ln-Ya-LY9"/>
+                                                <constraint firstAttribute="trailing" secondItem="2f3-u7-HDt" secondAttribute="trailing" id="hHx-fE-78P"/>
+                                                <constraint firstAttribute="bottom" secondItem="2f3-u7-HDt" secondAttribute="bottom" id="pKN-UH-e5M"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="VideoBannerCell" rowHeight="62" id="z1m-Vp-k3a">
+                                        <rect key="frame" x="0.0" y="252" width="375" height="62"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="z1m-Vp-k3a" id="ZAg-gV-YbJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="62"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="khan" translatesAutoresizingMaskIntoConstraints="NO" id="ZSH-cV-N9a">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="62"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="ZSH-cV-N9a" firstAttribute="leading" secondItem="ZAg-gV-YbJ" secondAttribute="leading" id="TyL-wV-o0e"/>
+                                                <constraint firstAttribute="trailing" secondItem="ZSH-cV-N9a" secondAttribute="trailing" id="VMa-Bq-a5q"/>
+                                                <constraint firstAttribute="bottom" secondItem="ZSH-cV-N9a" secondAttribute="bottom" id="cXO-lZ-DH6"/>
+                                                <constraint firstItem="ZSH-cV-N9a" firstAttribute="top" secondItem="ZAg-gV-YbJ" secondAttribute="top" id="hCD-Ve-ATq"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="VideoDivCell" rowHeight="22" id="qRf-CL-ZrB">
+                                        <rect key="frame" x="0.0" y="314" width="375" height="22"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qRf-CL-ZrB" id="xej-iv-5SD">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="22"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="divider" translatesAutoresizingMaskIntoConstraints="NO" id="K7D-tV-bfT">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="22"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="K7D-tV-bfT" secondAttribute="bottom" id="12n-NW-1Pd"/>
+                                                <constraint firstItem="K7D-tV-bfT" firstAttribute="top" secondItem="xej-iv-5SD" secondAttribute="top" id="AL1-gW-RCo"/>
+                                                <constraint firstAttribute="trailing" secondItem="K7D-tV-bfT" secondAttribute="trailing" id="fY4-VU-ebS"/>
+                                                <constraint firstItem="K7D-tV-bfT" firstAttribute="leading" secondItem="xej-iv-5SD" secondAttribute="leading" id="l2J-TL-ubR"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="VideoBannerCell" rowHeight="62" id="7dS-dh-fNO">
+                                        <rect key="frame" x="0.0" y="336" width="375" height="62"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7dS-dh-fNO" id="8ZU-pb-HjH">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="62"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gilderlehrman" translatesAutoresizingMaskIntoConstraints="NO" id="4cD-Z2-FvI">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="62"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="4cD-Z2-FvI" firstAttribute="top" secondItem="8ZU-pb-HjH" secondAttribute="top" id="A77-mP-xhP"/>
+                                                <constraint firstItem="4cD-Z2-FvI" firstAttribute="leading" secondItem="8ZU-pb-HjH" secondAttribute="leading" id="CAa-A9-Idc"/>
+                                                <constraint firstAttribute="trailing" secondItem="4cD-Z2-FvI" secondAttribute="trailing" id="SD8-PS-MzM"/>
+                                                <constraint firstAttribute="bottom" secondItem="4cD-Z2-FvI" secondAttribute="bottom" id="rK4-oc-yo4"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="VideoDivCell" rowHeight="22" id="q5N-rf-2cm">
+                                        <rect key="frame" x="0.0" y="398" width="375" height="22"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="q5N-rf-2cm" id="PvP-Ec-ILM">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="22"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="divider" translatesAutoresizingMaskIntoConstraints="NO" id="U1b-qV-m6P">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="22"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="U1b-qV-m6P" secondAttribute="trailing" id="cpj-CT-4Pm"/>
+                                                <constraint firstItem="U1b-qV-m6P" firstAttribute="top" secondItem="PvP-Ec-ILM" secondAttribute="top" id="e66-Of-mSF"/>
+                                                <constraint firstItem="U1b-qV-m6P" firstAttribute="leading" secondItem="PvP-Ec-ILM" secondAttribute="leading" id="nd0-yv-fje"/>
+                                                <constraint firstAttribute="bottom" secondItem="U1b-qV-m6P" secondAttribute="bottom" id="tcF-S8-4qO"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="VideoBannerCell" rowHeight="62" id="srP-lu-qYg">
+                                        <rect key="frame" x="0.0" y="420" width="375" height="62"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="srP-lu-qYg" id="KIN-3l-T2d">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="62"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tomRichey" translatesAutoresizingMaskIntoConstraints="NO" id="rDu-s7-KlB">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="62"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="rDu-s7-KlB" secondAttribute="trailing" id="FjS-GF-3we"/>
+                                                <constraint firstItem="rDu-s7-KlB" firstAttribute="leading" secondItem="KIN-3l-T2d" secondAttribute="leading" id="SjT-sJ-hOi"/>
+                                                <constraint firstItem="rDu-s7-KlB" firstAttribute="top" secondItem="KIN-3l-T2d" secondAttribute="top" id="XPs-mz-ILl"/>
+                                                <constraint firstAttribute="bottom" secondItem="rDu-s7-KlB" secondAttribute="bottom" id="rbe-8o-4ct"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="974-et-jUr" id="a27-Gx-Qxq"/>
+                            <outlet property="delegate" destination="974-et-jUr" id="O9f-oo-0rK"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Video Resources" id="GZ6-pT-wvb">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" image="Menu" id="yLr-1C-kHO">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="openMenu:" destination="974-et-jUr" id="AyP-sM-EA1"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="TbJ-NA-Wip" kind="show" identifier="webSegue" id="Yfl-TF-Mum"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FFP-kQ-Hab" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.80000000000000004" y="-25.637181409295355"/>
+        </scene>
+        <!--Video Page-->
+        <scene sceneID="job-2O-dqb">
+            <objects>
+                <viewController title="Video Page" id="TbJ-NA-Wip" customClass="WebPageViewController" customModule="APUSH_Companion" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tGz-1e-781">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="998-cp-pEN">
+                                <rect key="frame" x="0.0" y="64" width="375" height="553"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="StX-Zz-Lcs" customClass="GADBannerView">
+                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="03h-ZB-PPM"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="998-cp-pEN" firstAttribute="leading" secondItem="YWE-HA-B2z" secondAttribute="leading" id="1v8-wh-Sk9"/>
+                            <constraint firstItem="998-cp-pEN" firstAttribute="top" secondItem="YWE-HA-B2z" secondAttribute="top" id="3Dm-Gx-fHL"/>
+                            <constraint firstItem="StX-Zz-Lcs" firstAttribute="top" secondItem="998-cp-pEN" secondAttribute="bottom" id="3aH-YG-frx"/>
+                            <constraint firstItem="998-cp-pEN" firstAttribute="trailing" secondItem="YWE-HA-B2z" secondAttribute="trailing" id="MyS-Qr-VaM"/>
+                            <constraint firstItem="StX-Zz-Lcs" firstAttribute="bottom" secondItem="YWE-HA-B2z" secondAttribute="bottom" id="UhX-GT-Z5v"/>
+                            <constraint firstItem="StX-Zz-Lcs" firstAttribute="leading" secondItem="YWE-HA-B2z" secondAttribute="leading" id="Znn-TQ-tEX"/>
+                            <constraint firstItem="YWE-HA-B2z" firstAttribute="trailing" secondItem="StX-Zz-Lcs" secondAttribute="trailing" id="aXr-0F-2YN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="YWE-HA-B2z"/>
+                    </view>
+                    <connections>
+                        <outlet property="bannerView" destination="StX-Zz-Lcs" id="8Ii-xI-FeB"/>
+                        <outlet property="webView" destination="998-cp-pEN" id="jeC-Ui-JZn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xGl-K4-7rb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="884" y="-26.53673163418291"/>
+        </scene>
+        <!--Video Resources-->
+        <scene sceneID="Rre-l1-vH8">
+            <objects>
+                <navigationController title="Video Resources" id="uId-gy-i74" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8ZK-W1-Pj8">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="974-et-jUr" kind="relationship" relationship="rootViewController" id="pi3-pn-hbK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GRb-m4-YqZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-950" y="-25"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Menu" width="24" height="17"/>
+        <image name="adamNorris" width="1060" height="176"/>
+        <image name="crashCourse" width="1060" height="175"/>
+        <image name="divider" width="409" height="24"/>
+        <image name="gilderlehrman" width="1060" height="175"/>
+        <image name="jocz" width="1060" height="175"/>
+        <image name="khan" width="1060" height="175"/>
+        <image name="tomRichey" width="1060" height="175"/>
+    </resources>
+</document>

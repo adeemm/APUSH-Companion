@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FGG-Bs-myk">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="XXc-3z-hj0">
+            <objects>
+                <viewController storyboardIdentifier="Home" title="Home" id="kCe-tA-DYp" userLabel="Home" customClass="HomeViewController" customModule="APUSH_Companion" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bee-0f-QMn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OpS-iw-C3g">
+                                <rect key="frame" x="12" y="136" width="351" height="57.5"/>
+                                <string key="text">Welcome To The
+APUSH Companion App</string>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IconTransparentLarge" translatesAutoresizingMaskIntoConstraints="NO" id="yri-3m-Ntx">
+                                <rect key="frame" x="123.5" y="235.5" width="128" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="32J-Pc-KYz"/>
+                                    <constraint firstAttribute="width" constant="128" id="saA-3t-R3t"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ghI-TF-1bS">
+                                <rect key="frame" x="83.5" y="395.5" width="208.5" height="157.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">✓ 1500+ Vocab &amp; ID's
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="18" name=".SFNSDisplay"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.5" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">✓ 41 Chapter Summaries
+✓ Helpful Review Videos
+✓ Outlines &amp; Documents
+✓ Review Flashcards</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="18" name=".SFNSDisplay"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ytd-67-pVR" customClass="GADBannerView">
+                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Oet-le-JB7"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ghI-TF-1bS" firstAttribute="top" secondItem="yri-3m-Ntx" secondAttribute="bottom" constant="32" id="7KC-6P-Je2"/>
+                            <constraint firstItem="yri-3m-Ntx" firstAttribute="top" secondItem="OpS-iw-C3g" secondAttribute="bottom" constant="42" id="9Aj-Sd-uYD"/>
+                            <constraint firstItem="yri-3m-Ntx" firstAttribute="centerX" secondItem="bee-0f-QMn" secondAttribute="centerX" id="Fne-Ho-dZa"/>
+                            <constraint firstItem="ytd-67-pVR" firstAttribute="trailing" secondItem="Kc9-m1-lM2" secondAttribute="trailing" id="VJ0-kq-gQS"/>
+                            <constraint firstItem="Kc9-m1-lM2" firstAttribute="trailing" secondItem="OpS-iw-C3g" secondAttribute="trailing" constant="12" id="cO7-g0-ldH"/>
+                            <constraint firstItem="ghI-TF-1bS" firstAttribute="centerX" secondItem="bee-0f-QMn" secondAttribute="centerX" id="eES-Rw-WPN"/>
+                            <constraint firstItem="ytd-67-pVR" firstAttribute="leading" secondItem="bee-0f-QMn" secondAttribute="leading" id="jL8-vb-ssa"/>
+                            <constraint firstItem="yri-3m-Ntx" firstAttribute="centerX" secondItem="bee-0f-QMn" secondAttribute="centerX" id="lx0-kh-gpo"/>
+                            <constraint firstItem="OpS-iw-C3g" firstAttribute="top" secondItem="Kc9-m1-lM2" secondAttribute="top" constant="72" id="nke-QC-bas"/>
+                            <constraint firstItem="OpS-iw-C3g" firstAttribute="leading" secondItem="Kc9-m1-lM2" secondAttribute="leading" constant="12" id="sBf-Ds-AL7"/>
+                            <constraint firstItem="Kc9-m1-lM2" firstAttribute="bottom" secondItem="ytd-67-pVR" secondAttribute="bottom" id="x8b-XM-SbT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Kc9-m1-lM2"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Home" id="bAa-Zk-L7w">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" image="Menu" id="E03-rk-TK4">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="openMenu:" destination="kCe-tA-DYp" id="teH-ea-98b"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="bannerView" destination="ytd-67-pVR" id="0bF-5G-xOS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Obq-0h-SGM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1920.8" y="-555.47226386806597"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="NvO-tl-04F">
+            <objects>
+                <navigationController title="Home" automaticallyAdjustsScrollViewInsets="NO" id="FGG-Bs-myk" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jPu-tq-jrd">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="kCe-tA-DYp" kind="relationship" relationship="rootViewController" id="cV3-Ky-6rw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4UM-HO-z9a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="981.60000000000002" y="-555.47226386806597"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="IconTransparentLarge" width="100" height="100"/>
+        <image name="Menu" width="24" height="17"/>
+    </resources>
+</document>
